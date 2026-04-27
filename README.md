@@ -102,3 +102,55 @@ http://localhost:4000
 ## 👩‍💻 Author
 
 Made with ❤️ as part of the **CodSoft AI Internship — Task 1**
+
+
+
+
+# 🎮 Tic Tac Toe AI 🤖
+
+A smart and interactive **Tic Tac Toe Game** built using **Python** and **Tkinter GUI**, powered by the **Minimax Algorithm** to make the AI player unbeatable.
+
+> Play against the computer if you dare 😈  
+> The AI never loses.
+
+---
+
+## 🚀 Features
+
+✅ Beautiful GUI using Tkinter  
+✅ Human vs AI Gameplay  
+✅ Unbeatable AI using Minimax Algorithm  
+✅ Instant Win / Draw Detection  
+✅ Restart Game Button  
+✅ Smooth and Beginner-Friendly Code Structure  
+
+---
+
+## 🧠 AI Logic Used
+
+This project uses the famous **Minimax Algorithm**, a decision-making algorithm used in:
+
+- Chess Engines ♟️  
+- Tic Tac Toe 🎮  
+- Game Theory 🤖  
+- Artificial Intelligence Systems
+
+The AI checks every possible future move and always chooses the best one.
+
+---
+
+## 🖥️ Tech Stack
+
+- **Python 3**
+- **Tkinter** (for GUI)
+- **Minimax Algorithm**
+
+---
+
+## 📂 Project Structure
+
+```bash
+TicTacToeAI/
+│── tic_tac_toe.py          # Console Version
+│── tic_tac_toe_gui.py      # GUI Version
+│── README.md
