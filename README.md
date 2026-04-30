@@ -281,7 +281,7 @@ Built an AI-powered Book Recommendation System using Python, Flask, Pandas, and 
 
 ## 👨‍💻 Author
 
-Made by **INCODEUSER**
+Made by **PariInCode**
 
 ---
 
