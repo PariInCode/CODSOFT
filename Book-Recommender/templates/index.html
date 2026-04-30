@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Premium Book AI</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="hero">
+    <h1>📚 Premium Book Recommendation AI</h1>
+    <p>Discover your next obsession</p>
+
+    <form method="POST">
+        <input type="text" name="book" placeholder="Enter Book Name..." required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div class="cards">
+        {% for book in recommendations %}
+        <div class="card">
+            <img src="{{ book.image }}">
+            <h3>{{ book.title }}</h3>
+            <a href="{{ book.link }}" target="_blank">🛒 Buy Now</a>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+</body>
+</html>

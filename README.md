@@ -154,3 +154,135 @@ TicTacToeAI/
 │── tic_tac_toe.py          # Console Version
 │── tic_tac_toe_gui.py      # GUI Version
 │── README.md
+
+
+
+# 📚 Book Recommendation AI
+
+A premium **Book Recommendation Web App** built using **Python, Flask, Pandas, and Scikit-learn**.
+Users can search for a book title and get smart recommendations with book covers and buy links.
+
+---
+
+## 🚀 Features
+
+✅ Book recommendation system using Machine Learning
+✅ Search by book title
+✅ Similar books suggested instantly
+✅ Premium dark UI design
+✅ Book cover images
+✅ Buy links for each recommended book
+✅ Fast and lightweight Flask web app
+
+---
+
+## 🧠 Tech Stack
+
+* **Python**
+* **Flask**
+* **Pandas**
+* **NumPy**
+* **Scikit-learn**
+* **HTML**
+* **CSS**
+
+---
+
+## 📂 Project Structure
+
+```bash
+Book-Recommender/
+│── app.py
+│── books.csv
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+    └── style.css
+```
+
+---
+
+## ⚙️ How It Works
+
+1. Dataset of books is loaded using Pandas
+2. Author + Genre are combined as features
+3. CountVectorizer converts text into numbers
+4. Cosine Similarity finds similar books
+5. Flask displays recommendations on website
+
+---
+
+## ▶️ Installation
+
+### 1. Clone project
+
+```bash
+git clone <your-repo-link>
+cd Book-Recommender
+```
+
+### 2. Install libraries
+
+```bash
+pip install flask pandas numpy scikit-learn
+```
+
+### 3. Run project
+
+```bash
+python app.py
+```
+
+### 4. Open browser
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+## 🔍 Example Search
+
+Input:
+
+```text
+Harry Potter
+```
+
+Output:
+
+* Percy Jackson
+* Hobbit
+* Narnia
+* Eragon
+
+---
+
+
+
+## 💡 Future Improvements
+
+* Login system
+* Save favorite books
+* Voice search
+* Real 10k+ dataset
+* Deploy online
+* Personalized recommendations
+
+---
+
+## 📌 Resume Description
+
+Built an AI-powered Book Recommendation System using Python, Flask, Pandas, and Machine Learning that recommends similar books based on title, genre, and author with an interactive web interface.
+
+---
+
+## 👨‍💻 Author
+
+Made by **INCODEUSER**
+
+---
+
+## ⭐ If you like this project, give it a star on GitHub!
